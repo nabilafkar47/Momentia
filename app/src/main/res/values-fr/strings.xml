@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Momentia</string>
+
+    <string name="register">S\'inscrire</string>
+    <string name="login">Connexion</string>
+    <string name="logout">Déconnexion</string>
+    <string name="upload">Télécharger</string>
+    <string name="gallery">Galerie</string>
+    <string name="camera">Caméra</string>
+    <string name="upload_story">Télécharger une histoire</string>
+    <string name="language">Langue</string>
+
+    <string name="name">Nom</string>
+    <string name="email">Email</string>
+    <string name="password">Mot de passe</string>
+    <string name="description">Description</string>
+
+    <string name="story_detail">Détail de l\'histoire</string>
+    <string name="add_story">Ajouter une histoire</string>
+
+    <string name="title_login_page">Content de te revoir !</string>
+    <string name="message_login_page">Connectez-vous à votre compte et continuez votre aventure de partage d\'histoires.</string>
+
+    <string name="title_register_page">Rejoignez-nous !</string>
+    <string name="message_register_page">Inscrivez-vous en complétant les informations ci-dessous.</string>
+
+    <string name="message_welcome_page">Partagez les meilleurs moments de votre vie avec vos amis ici. Rejoignez notre communauté et commencez à partager vos histoires dès aujourd\'hui !</string>
+
+    <string name="picture_welcome_page">Image de bienvenue</string>
+    <string name="picture_detail_page">Image de détail</string>
+    <string name="picture_add_page">Ajouter une image d\'histoire</string>
+
+    <string name="seconds">secondes</string>
+    <string name="minutes">minutes</string>
+    <string name="hours">heures</string>
+    <string name="days">jours</string>
+    <string name="unknown_time">Heure inconnue</string>
+
+    <string name="invalid_email_format">Format d\'email invalide</string>
+    <string name="password_length_error">Le mot de passe doit comporter au moins 8 caractères</string>
+
+    <string name="story_list">Liste des Histoires</string>
+    <string name="logout_dialog_message">Êtes-vous sûr de vouloir vous déconnecter?</string>
+    <string name="dialog_positive_button">OK</string>
+    <string name="dialog_negative_button">ANNULER</string>
+
+    <string name="appwidget_text">Dernière histoire</string>
+    <string name="add_widget">Ajouter un widget</string>
+    <string name="app_widget_description">Widget Momentia</string>
+    <string name="empty_widget_text">Vide</string>
+
+    <string name="success_refresh">Rafraîchissement Réussi</string>
+    <string name="success_logout">Déconnexion Réussie</string>
+
+    <string name="title_activity_maps">Activité Cartes</string>
+    <string name="normal_type">Normal</string>
+    <string name="satellite_type">Satellite</string>
+    <string name="terrain_type">Terrain</string>
+    <string name="hybrid_type">Hybride</string>
+    <string name="maps">Cartes</string>
+    <string name="retry">Réessayer</string>
+    <string name="permission_denied">Permission Refusée</string>
+    <string name="location_unavailable">Localisation indisponible</string>
+
+</resources>

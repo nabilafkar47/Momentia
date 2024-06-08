@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Momentia</string>
+
+    <string name="register" translatable="false">Register</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="upload">Upload</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="upload_story">Upload Story</string>
+    <string name="language">Language</string>
+
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="description">Description</string>
+
+    <string name="story_detail">Story Detail</string>
+    <string name="add_story">Add Story</string>
+
+    <string name="title_login_page">Welcome Back!</string>
+    <string name="message_login_page">Log in to your account and continue your story-sharing adventure.</string>
+
+    <string name="title_register_page">Join Us!</string>
+    <string name="message_register_page">Register yourself by completing the data below.</string>
+
+    <string name="message_welcome_page">Share the best moments of your life with your friends here. Join our community and start sharing your stories today!</string>
+
+    <string name="picture_welcome_page">Welcome Picture</string>
+    <string name="picture_detail_page">Detail Picture</string>
+    <string name="picture_add_page">Add Story Picture</string>
+
+    <string name="seconds">seconds</string>
+    <string name="minutes">minutes</string>
+    <string name="hours">hours</string>
+    <string name="days">days</string>
+    <string name="unknown_time">Unknown time</string>
+
+    <string name="invalid_email_format">Invalid email format</string>
+    <string name="password_length_error">Password must be at least 8 characters</string>
+
+    <string name="story_list">Story List</string>
+    <string name="logout_dialog_message">Are you sure you want to logout?</string>
+    <string name="dialog_positive_button">OK</string>
+    <string name="dialog_negative_button">CANCEL</string>
+
+    <string name="appwidget_text">Latest Story</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">Momentia Widget</string>
+    <string name="empty_widget_text">Empty</string>
+
+    <string name="success_refresh">Successfully Refreshed</string>
+    <string name="success_logout">Successfully Logged Out</string>
+
+    <string name="title_activity_maps">Maps Activity</string>
+    <string name="normal_type">Normal</string>
+    <string name="satellite_type">Satellite</string>
+    <string name="terrain_type">Terrain</string>
+    <string name="hybrid_type">Hybrid</string>
+    <string name="maps">Maps</string>
+    <string name="retry">Retry</string>
+    <string name="permission_denied">Permission Denied</string>
+    <string name="location_unavailable">Location unavailable</string>
+
+</resources>

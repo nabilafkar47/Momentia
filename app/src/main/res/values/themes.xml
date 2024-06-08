@@ -1,0 +1,153 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.LoginWithAnimation" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondaryContainer">@color/grey_sec</item>
+        <item name="colorOnSecondaryContainer">@color/black</item>
+
+        <item name="colorPrimaryContainer">@color/blue</item>
+        <item name="colorOnPrimaryContainer">@color/white</item>
+
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowBackground">@color/white</item>
+
+        <item name="overlapAnchor">false</item>
+        <item name="android:dropDownVerticalOffset">?attr/actionBarSize</item>
+
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="android:fontFamily">@font/open_sans_regular</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:lineSpacingExtra">0dp</item>
+
+        <item name="popupMenuBackground">@drawable/custom_popup_background</item>
+        <item name="materialAlertDialogTheme">@style/AlertDialogCustom</item>
+        <item name="circularProgressIndicatorStyle">@style/CircularProgressIndicatorCustom</item>
+        <item name="toolbarStyle">@style/ToolbarCustom</item>
+        <item name="floatingActionButtonStyle">@style/FabCustom</item>
+        <item name="materialSwitchStyle">@style/SwitchCustom</item>
+    </style>
+
+    <style name="ToolbarCustom" parent="Widget.Material3.Toolbar">
+        <item name="titleTextAppearance">@style/ToolbarTitleCustom</item>
+    </style>
+
+    <style name="ToolbarTitleCustom" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/open_sans_bold</item>
+        <item name="android:fontFamily">@font/open_sans_bold</item>
+    </style>
+
+    <style name="RoundedImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="android:backgroundTint">@color/white</item>
+        <item name="materialAlertDialogBodyTextStyle">@style/AlertDialogTextCustom</item>
+        <item name="materialAlertDialogTitleTextStyle">@style/AlertDialogTitleCustom</item>
+        <item name="shapeAppearanceOverlay">@style/AlertDialogShape</item>
+    </style>
+
+    <style name="AlertDialogTextCustom" parent="MaterialAlertDialog.Material3.Body.Text">
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="AlertDialogTitleCustom" parent="MaterialAlertDialog.Material3.Title.Text">
+        <item name="android:fontFamily">@font/open_sans_semi_bold</item>
+    </style>
+
+    <style name="AlertDialogShape">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="CircularProgressIndicatorCustom" parent="Widget.Material3.CircularProgressIndicator">
+        <item name="trackCornerRadius">8dp</item>
+        <item name="android:indeterminate">true</item>
+    </style>
+
+    <style name="FabCustom" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="shapeAppearanceOverlay">@style/FabShapeCustom</item>
+        <item name="fabCustomSize">60dp</item>
+    </style>
+
+    <style name="FabShapeCustom">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">100%</item>
+    </style>
+
+    <style name="SwitchCustom" parent="Widget.Material3.CompoundButton.MaterialSwitch">
+        <item name="materialThemeOverlay">@style/SwitchBackground</item>
+        <item name="trackDecorationTint">@color/transparent</item>
+        <item name="thumbTint">@color/white</item>
+    </style>
+
+    <style name="SwitchBackground" parent="">
+        <item name="colorSurfaceVariant">@color/grey_sec</item>
+    </style>
+
+    <style name="TextContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextContent.Body">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="TextContent.SubTitle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+    <style name="TextContent.Title">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextContent.Body.ExtraBold">
+        <item name="android:fontFamily">@font/open_sans_extra_bold</item>
+    </style>
+
+    <style name="TextContent.Body.Bold">
+        <item name="android:fontFamily">@font/open_sans_bold</item>
+    </style>
+
+    <style name="TextContent.Body.SemiBold">
+        <item name="android:fontFamily">@font/open_sans_semi_bold</item>
+    </style>
+
+    <style name="TextContent.Title.ExtraBold">
+        <item name="android:fontFamily">@font/open_sans_extra_bold</item>
+    </style>
+
+    <style name="TextContent.Title.Bold">
+        <item name="android:fontFamily">@font/open_sans_bold</item>
+    </style>
+
+    <style name="TextContent.Title.SemiBold">
+        <item name="android:fontFamily">@font/open_sans_semi_bold</item>
+    </style>
+
+    <style name="Theme.LoginWithAnimation" parent="Base.Theme.LoginWithAnimation" />
+
+    <style name="Theme.LoginWithAnimation.AppWidgetContainerParent" parent="@android:style/Theme.DeviceDefault">
+        <!-- Radius of the outer bound of widgets to make the rounded corners -->
+        <item name="appWidgetRadius">16dp</item>
+        <!--
+        Radius of the inner view's bound of widgets to make the rounded corners.
+        It needs to be 8dp or less than the value of appWidgetRadius
+        -->
+        <item name="appWidgetInnerRadius">8dp</item>
+    </style>
+
+    <style name="Theme.LoginWithAnimation.AppWidgetContainer" parent="Theme.LoginWithAnimation.AppWidgetContainerParent">
+        <!-- Apply padding to avoid the content of the widget colliding with the rounded corners -->
+        <item name="appWidgetPadding">16dp</item>
+    </style>
+</resources>

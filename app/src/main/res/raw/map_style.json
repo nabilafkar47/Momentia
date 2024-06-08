@@ -1,0 +1,23 @@
+[
+  {
+    "featureType": "landscape.natural.landcover",
+    "elementType": "geometry.fill",
+    "stylers": [
+      {
+        "color": "#e0e7f1"
+      },
+      {
+        "saturation": -20
+      }
+    ]
+  },
+  {
+    "featureType": "water",
+    "elementType": "geometry.fill",
+    "stylers": [
+      {
+        "saturation": -35
+      }
+    ]
+  }
+]

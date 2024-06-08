@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Momentia</string>
+
+    <string name="register">Registrarse</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="logout">Cerrar Sesión</string>
+    <string name="upload">Subir</string>
+    <string name="gallery">Galería</string>
+    <string name="camera">Cámara</string>
+    <string name="upload_story">Subir Historia</string>
+    <string name="language">Idioma</string>
+
+    <string name="name">Nombre</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="description">Descripción</string>
+
+    <string name="story_detail">Detalle de la Historia</string>
+    <string name="add_story">Agregar Historia</string>
+
+    <string name="title_login_page">¡Bienvenido de Nuevo!</string>
+    <string name="message_login_page">Inicie sesión en su cuenta y continúe su aventura de compartir historias.</string>
+
+    <string name="title_register_page">¡Únase a Nosotros!</string>
+    <string name="message_register_page">Regístrese completando los datos a continuación.</string>
+
+    <string name="message_welcome_page">Comparte los mejores momentos de tu vida con tus amigos aquí. ¡Únete a nuestra comunidad y comienza a compartir tus historias hoy mismo!</string>
+
+    <string name="picture_welcome_page">Imagen de Bienvenida</string>
+    <string name="picture_detail_page">Imagen Detallada</string>
+    <string name="picture_add_page">Agregar Imagen de Historia</string>
+
+    <string name="seconds">segundos</string>
+    <string name="minutes">minutos</string>
+    <string name="hours">horas</string>
+    <string name="days">días</string>
+    <string name="unknown_time">Hora desconocida</string>
+
+    <string name="invalid_email_format">Formato de correo electrónico no válido</string>
+    <string name="password_length_error">La contraseña debe tener al menos 8 caracteres</string>
+
+    <string name="story_list">Lista de Historias</string>
+    <string name="logout_dialog_message">¿Estás seguro de que quieres cerrar sesión?</string>
+    <string name="dialog_positive_button">OK</string>
+    <string name="dialog_negative_button">CANCELAR</string>
+
+    <string name="appwidget_text">Última historia</string>
+    <string name="add_widget">Agregar widget</string>
+    <string name="app_widget_description">Widget Momentia</string>
+    <string name="empty_widget_text">Vacío</string>
+
+    <string name="success_refresh">Actualización Exitosa</string>
+    <string name="success_logout">Cierre de Sesión Exitoso</string>
+
+    <string name="title_activity_maps">Actividad de Mapas</string>
+    <string name="normal_type">Normal</string>
+    <string name="satellite_type">Satélite</string>
+    <string name="terrain_type">Terreno</string>
+    <string name="hybrid_type">Híbrido</string>
+    <string name="maps">Mapas</string>
+    <string name="retry">Reintentar</string>
+    <string name="permission_denied">Permiso Denegado</string>
+    <string name="location_unavailable">Ubicación no disponible</string>
+
+</resources>

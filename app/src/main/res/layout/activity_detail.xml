@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.detail.DetailActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_detail_profile"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/avatar"
+            android:transitionName="profile"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+        <TextView
+            android:id="@+id/tv_detail_name"
+            style="@style/TextContent.Body.Bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:transitionName="name"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_detail_profile"
+            app:layout_constraintStart_toEndOf="@+id/iv_detail_profile"
+            app:layout_constraintTop_toTopOf="@+id/iv_detail_profile"
+            tools:text="Name" />
+
+        <TextView
+            android:id="@+id/tv_detail_description"
+            style="@style/TextContent.Body"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:transitionName="description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/iv_detail_profile"
+            app:layout_constraintTop_toBottomOf="@+id/iv_detail_profile"
+            tools:text="Description" />
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_detail_photo"
+            android:layout_width="0dp"
+            android:layout_height="300dp"
+            android:layout_marginTop="12dp"
+            android:contentDescription="@string/picture_detail_page"
+            android:scaleType="centerCrop"
+            android:transitionName="photo"
+            app:layout_constraintEnd_toEndOf="@+id/tv_detail_description"
+            app:layout_constraintStart_toStartOf="@+id/tv_detail_description"
+            app:layout_constraintTop_toBottomOf="@+id/tv_detail_description"
+            app:shapeAppearanceOverlay="@style/RoundedImageView"
+            app:srcCompat="@drawable/ic_placeholder" />
+
+        <TextView
+            android:id="@+id/tv_detail_time"
+            style="@style/TextContent.SubTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:transitionName="time"
+            app:layout_constraintStart_toStartOf="@+id/iv_detail_photo"
+            app:layout_constraintTop_toBottomOf="@+id/iv_detail_photo"
+            tools:text="Time" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+
